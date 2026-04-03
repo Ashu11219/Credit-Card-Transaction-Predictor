@@ -98,6 +98,16 @@ Based on evaluation:
 * Alternative models were explored
 
 ---
+## 📊 Results
+
+| Metric                                    | Value |
+|-------------------------------------------|------|
+| Best Model                                | Random Forest Regressor |
+| Validation Mean Absolute Percentage Error | 2.95% |
+| Test Mean Absolute Error                  | 1,433,415.73 |
+| Test Mean Absolute Percentage Error    | 7.89% |
+
+---
 
 ## 🧱 Project Structure
 
