@@ -3,7 +3,7 @@
 ## 🧠 Overview
 
 This project focuses on predicting **monthly credit card spending** using historical transaction data.
-The goal is not just to build a model, but to follow a **structured machine learning pipeline** — from raw data to final evaluation.
+The goal is not just to build a model, but to follow a **structured machine learning pipeline** — from raw data to final evaluation and comparing Linear Regression and Random Forest Rregressor model for the given data.
 
 ---
 
