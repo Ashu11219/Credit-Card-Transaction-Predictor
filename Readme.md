@@ -7,6 +7,17 @@ The goal is not just to build a model, but to follow a **structured machine lear
 
 ---
 
+## 📊 Results
+
+| Metric                                    | Value |
+|-------------------------------------------|------|
+| Best Model                                | Random Forest Regressor |
+| Validation Mean Absolute Percentage Error | 2.95% |
+| Test Mean Absolute Error                  | 1,433,415.73 |
+| Test Mean Absolute Percentage Error    | 7.89% |
+
+---
+
 ## 🎯 Problem Definition
 
 > Predict the total amount of money that will be spent in a given month based on past transaction data.
@@ -98,16 +109,7 @@ Based on evaluation:
 * Alternative models were explored
 
 ---
-## 📊 Results
 
-| Metric                                    | Value |
-|-------------------------------------------|------|
-| Best Model                                | Random Forest Regressor |
-| Validation Mean Absolute Percentage Error | 2.95% |
-| Test Mean Absolute Error                  | 1,433,415.73 |
-| Test Mean Absolute Percentage Error    | 7.89% |
-
----
 
 ## 🧱 Project Structure
 
