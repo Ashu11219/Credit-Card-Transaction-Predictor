@@ -3,7 +3,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_percentage_error as mape
 
-def model():
+def predictor():
     x_train, y_train, x_valid, y_valid, x_test, y_test = eda()
 
     lr = LinearRegression()
@@ -19,10 +19,10 @@ def model():
     error2 = mape(y_valid, y_pred2)
 
     if error1 > error2:
-        print(f"Random Forest Regressor is better as it has {error2 * 100:.2f} % error")
+        print(f"Random Forest Regressor is better as it has {error2 * 100:.2f} % error on validation dataset")
         best_model = rf
     else:
-        print(f"Linear Regression is better as it has {error1 * 100:.2f} %")
+        print(f"Linear Regression is better as it has {error1 * 100:.2f} % on validation dataset")
         best_model = lr
 
     return best_model, x_test, y_test
